@@ -1,0 +1,538 @@
+INFO - 2023-03-24 01:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 01:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 01:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 01:59:42 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(155): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 02:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 02:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 02:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 02:44:29 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(166): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 02:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 02:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 02:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 02:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 02:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 02:49:22 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(168): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 02:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 02:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 02:50:56 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(168): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 02:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 02:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 02:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 02:51:24 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(168): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 02:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 02:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 02:51:34 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(168): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 02:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 02:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 02:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 02:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 02:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 02:52:02 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(168): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 02:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 02:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 02:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 02:59:57 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(168): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 03:00:03 --> Undefined property: stdClass::$responseDesc
+in APPPATH/Controllers/Home.php on line 270.
+ 1 APPPATH/Controllers/Home.php(270): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$responseDesc', 'APPPATH/Controllers/Home.php', 270, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->dopayment('4')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 03:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 03:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 03:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 03:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 03:01:23 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(168): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 03:01:28 --> Undefined property: stdClass::$responseDesc
+in APPPATH/Controllers/Home.php on line 270.
+ 1 APPPATH/Controllers/Home.php(270): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$responseDesc', 'APPPATH/Controllers/Home.php', 270, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->dopayment('5')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 03:02:13 --> Undefined property: stdClass::$responseData
+in APPPATH/Controllers/Home.php on line 270.
+ 1 APPPATH/Controllers/Home.php(270): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$responseData', 'APPPATH/Controllers/Home.php', 270, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->dopayment('5')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 03:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 03:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 03:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 03:03:27 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(168): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 03:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 03:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 03:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 03:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 03:04:45 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(168): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 03:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 03:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 03:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 03:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 03:09:44 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(168): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 03:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 03:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 03:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 03:11:27 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(168): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 03:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 03:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 03:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 03:15:00 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(168): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 03:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 03:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 03:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 03:25:59 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(168): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 04:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 04:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 04:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 04:06:10 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(168): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 04:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 05:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 05:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 06:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 06:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 06:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 06:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 09:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 13:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 14:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 14:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 14:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 14:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 14:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 14:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 14:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 14:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 16:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 16:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 16:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 16:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 16:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 16:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 16:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 16:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 16:20:01 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/Admin.php(165): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin->verification()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 16:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 16:22:21 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/Admin.php(165): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin->verification()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 16:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 16:23:25 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/Admin.php(167): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin->verification()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 16:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 16:24:21 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/Admin.php(168): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin->verification()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 16:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 16:33:20 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/Admin.php(165): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin->verification()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 16:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 16:36:27 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/Admin.php(164): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin->verification()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 16:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 16:37:23 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/Admin.php(162): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin->verification()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 16:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 16:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 16:38:50 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/Admin.php(162): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin->verification()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 16:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 16:42:56 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/Admin.php(162): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin->verification()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 16:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 16:43:09 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/Admin.php(162): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin->verification()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 16:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 16:44:03 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/Admin.php(162): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin->verification()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 16:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 16:47:38 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 924.
+ 1 SYSTEMPATH/BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH/Controllers/Admin.php(161): CodeIgniter\Model->update([...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin->verification()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 16:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 16:47:51 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 924.
+ 1 SYSTEMPATH/BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH/Controllers/Admin.php(161): CodeIgniter\Model->update([...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin->verification()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 16:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 16:49:06 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 924.
+ 1 SYSTEMPATH/BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH/Controllers/Admin.php(161): CodeIgniter\Model->update([...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin->verification()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 16:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 16:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 16:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 16:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 16:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 16:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 16:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 16:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 16:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 16:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 16:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 16:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 16:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 17:00:29 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(168): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 17:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 17:04:56 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(168): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 17:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-24 17:10:28 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(168): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-24 17:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-24 17:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

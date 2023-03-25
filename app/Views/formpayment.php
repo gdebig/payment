@@ -6,7 +6,7 @@
     <div class="bg-light p-5 rounded">
         <h1><?= $pagetitle; ?></h1>
         <br />
-        <form action="<?= base_url(); ?>dopayment" method="post">
+        <form action="<?= base_url(); ?>rekappayment" method="post">
             <div class="mb-3">
                 <label for="paper_id" class="form-label">Paper ID *)</label>
                 <input type="input" class="form-control" id="paper_id" name="paper_id" placeholder="Paper ID">
@@ -16,22 +16,46 @@
                 <textarea class="form-control" id="paper_title" name="paper_title" rows="3"></textarea>
             </div>
             <div class="mb-3">
-                <label for="papper_authors" class="form-label">Paper Authors *)</label>
+                <label for="paper_authors" class="form-label">Paper Authors (use comma for more than one author) *)</label>
                 <textarea class="form-control" id="paper_authors" name="paper_authors" rows="3"></textarea>
             </div>
             <div class="mb-3">
-                <label for="payment_type" class="form-label">Type Payment *)</label>
-                <select class="form-select" aria-label="Type Payment" name="payment_type" id="payment_type">
-                    <option value="earlyRegIEEE" <?= $typepayment == "earlyRegIEEE" ? 'selected' : ''; ?>>(Early) Reguler IEEE Member (USD 225)</option>
-                    <option value="earlyRegNonIEEE" <?= $typepayment == "earlyRegNonIEEE" ? 'selected' : ''; ?>>(Early) Reguler Non IEEE Member (USD 250)</option>
-                    <option value="earlyStudentIEEE" <?= $typepayment == "earlyStudentIEEE" ? 'selected' : ''; ?>>(Early) Student IEEE Member (USD 125)</option>
-                    <option value="earlyStudentNonIEEE" <?= $typepayment == "earlyStudentNonIEEE" ? 'selected' : ''; ?>>(Early) Student Non IEEE Member (USD 150)</option>
-                    <option value="lateRegIEEE" <?= $typepayment == "lateRegIEEE" ? 'selected' : ''; ?>>(Late) Reguler IEEE Member (USD 275)</option>
-                    <option value="lateRegNonIEEE" <?= $typepayment == "lateRegNonIEEE" ? 'selected' : ''; ?>>(Late) Reguler Non IEEE Member (USD 300)</option>
-                    <option value="lateStudentIEEE" <?= $typepayment == "lateStudentIEEE" ? 'selected' : ''; ?>>(Late) Student IEEE Member (USD 175)</option>
-                    <option value="lateStudentNonIEEE" <?= $typepayment == "lateStudentNonIEEE" ? 'selected' : ''; ?>>(Late) Student Non IEEE Member (USD 200)</option>
-                    <option value="NonAuthor" <?= $typepayment == "NonAuthor" ? 'selected' : ''; ?>>Non-Author (USD 100)</option>
-                </select>
+                <label for="paper_firstname" class="form-label">Firstname *)</label>
+                <input type="input" class="form-control" id="paper_firstname" name="paper_firstname" placeholder="Firstname">
+            </div>
+            <div class="mb-3">
+                <label for="paper_lastname" class="form-label">Lastname *)</label>
+                <input type="input" class="form-control" id="paper_lastname" name="paper_lastname" placeholder="Lastname">
+            </div>
+            <div class="mb-3">
+                <label for="payment_email" class="form-label">Email *)</label>
+                <input type="email" class="form-control" id="payment_email" name="payment_email" placeholder="Email">
+            </div>
+            <div class="mb-3">
+                <label for="payment_phone" class="form-label">Phone Number *)</label>
+                <input type="input" class="form-control" id="payment_phone" name="payment_phone" placeholder="Phone Number">
+            </div>
+            <div class="mb-3">
+                <label for="payment_type" class="form-label">Type Payment *)</label><br />
+                <?php
+                if (mktime(0, 0, 0, 7, 17, 2023) > strtotime('now')) {
+                ?>
+                    <input type="checkbox" id="payment_type[]" name="payment_type[]" value="earlyRegIEEE"><label for="payment_type"> &nbsp;(Early) Reguler IEEE Member (IDR 3.500.000,-)</label><br />
+                    <input type="checkbox" id="payment_type[]" name="payment_type[]" value="earlyRegNonIEEE"><label for="payment_type"> &nbsp;(Early) Reguler Non IEEE Member (IDR 4.000.000,-)</label><br />
+                    <input type="checkbox" id="payment_type[]" name="payment_type[]" value="earlyStudentIEEE"><label for="payment_type"> &nbsp;(Early) Student IEEE Member (IDR 2.000.000,-)</label><br />
+                    <input type="checkbox" id="payment_type[]" name="payment_type[]" value="earlyStudentNonIEEE"><label for="payment_type"> &nbsp;(Early) Student Non IEEE Member (IDR 2.500.000,-)</label><br />
+                <?php
+                } else {
+                ?>
+                    <input type="checkbox" id="payment_type[]" name="payment_type[]" value="lateRegIEEE"><label for="payment_type"> &nbsp;(Late) Reguler IEEE Member (IDR 4.000.000,-)</label><br />
+                    <input type="checkbox" id="payment_type[]" name="payment_type[]" value="lateRegNonIEEE"><label for="payment_type"> &nbsp;(Late) Reguler Non IEEE Member (IDR 4.500.000,-)</label><br />
+                    <input type="checkbox" id="payment_type[]" name="payment_type[]" value="lateStudentIEEE"><label for="payment_type"> &nbsp;(Late) Student IEEE Member (IDR 2.500.000,-)</label><br />
+                    <input type="checkbox" id="payment_type[]" name="payment_type[]" value="lateStudentNonIEEE"><label for="payment_type"> &nbsp;(Late) Student Non IEEE Member (IDR 3.000.000,-)</label><br />
+                <?php
+                }
+                ?>
+                <input type="checkbox" id="payment_type[]" name="payment_type[]" value="NonAuthor"><label for="payment_type"> &nbsp;Non-Author (IDR 1.500.000,-)</label><br />
+                <input type="checkbox" id="payment_type[]" name="payment_type[]" value="SocialTour"><label for="payment_type"> &nbsp;Additional Social Tour (IDR 2.500.000,-)</label><br />
             </div>
             <br />
             <div class="mb-3">
@@ -39,7 +63,7 @@
             </div>
             <br />
             <div class="mb-3">
-                <button class="btn btn-primary" type="submit" name="submit" id="submit" value="DoPayment">Do Payment</button>
+                <button class="btn btn-primary" type="submit" name="submit" id="submit" value="DoPayment">Payment Proceed</button>
                 <button class="btn btn-danger" type="submit" name="submit" id="submit" value="Cancel">Cancel</button>
             </div>
         </form>

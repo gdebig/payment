@@ -1,0 +1,268 @@
+INFO - 2023-03-23 05:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 05:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 05:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 09:04:05 --> in_array() expects parameter 2 to be array, string given
+in APPPATH/Views/formpaymentvalid.php on line 44.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'in_array() expects parameter 2 to be array, string given', 'APPPATH/Views/formpaymentvalid.php', 44, [...])
+ 2 APPPATH/Views/formpaymentvalid.php(44): in_array('earlyRegIEEE', 'ROOTPATH/public')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/formpaymentvalid.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('formpaymentvalid', [], true)
+ 6 APPPATH/Controllers/Home.php(117): view('formpaymentvalid', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappayment()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 09:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 09:08:59 --> in_array() expects parameter 2 to be array, string given
+in APPPATH/Views/formpaymentvalid.php on line 44.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'in_array() expects parameter 2 to be array, string given', 'APPPATH/Views/formpaymentvalid.php', 44, [...])
+ 2 APPPATH/Views/formpaymentvalid.php(44): in_array('earlyRegIEEE', 'ROOTPATH/public')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/formpaymentvalid.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('formpaymentvalid', [], true)
+ 6 APPPATH/Controllers/Home.php(117): view('formpaymentvalid', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappayment()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 09:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 09:09:28 --> in_array() expects parameter 2 to be array, string given
+in APPPATH/Views/formpaymentvalid.php on line 44.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'in_array() expects parameter 2 to be array, string given', 'APPPATH/Views/formpaymentvalid.php', 44, [...])
+ 2 APPPATH/Views/formpaymentvalid.php(44): in_array('earlyRegIEEE', 'ROOTPATH/public')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/formpaymentvalid.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('formpaymentvalid', [], true)
+ 6 APPPATH/Controllers/Home.php(117): view('formpaymentvalid', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappayment()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 09:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 09:11:27 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH/Views/formpaymentvalid.php on line 44.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-03-23 09:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 09:14:15 --> in_array() expects parameter 2 to be array, string given
+in APPPATH/Views/formpaymentvalid.php on line 45.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'in_array() expects parameter 2 to be array, string given', 'APPPATH/Views/formpaymentvalid.php', 45, [...])
+ 2 APPPATH/Views/formpaymentvalid.php(45): in_array('earlyRegNonIEEE', 'ROOTPATH/public')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/formpaymentvalid.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('formpaymentvalid', [], true)
+ 6 APPPATH/Controllers/Home.php(117): view('formpaymentvalid', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappayment()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 09:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 09:15:34 --> in_array() expects parameter 2 to be array, string given
+in APPPATH/Views/formpaymentvalid.php on line 45.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'in_array() expects parameter 2 to be array, string given', 'APPPATH/Views/formpaymentvalid.php', 45, [...])
+ 2 APPPATH/Views/formpaymentvalid.php(45): in_array('earlyRegNonIEEE', 'ROOTPATH/public')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/formpaymentvalid.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('formpaymentvalid', [], true)
+ 6 APPPATH/Controllers/Home.php(117): view('formpaymentvalid', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappayment()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 09:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-23 09:19:23 --> mysqli_sql_exception: Operand should contain 1 column(s) in /Applications/MAMP/htdocs/payment/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /Applications/MAMP/htdocs/payment/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 /Applications/MAMP/htdocs/payment/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /Applications/MAMP/htdocs/payment/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /Applications/MAMP/htdocs/payment/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /Applications/MAMP/htdocs/payment/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Applications/MAMP/htdocs/payment/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /Applications/MAMP/htdocs/payment/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 /Applications/MAMP/htdocs/payment/system/BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 /Applications/MAMP/htdocs/payment/app/Controllers/Home.php(108): CodeIgniter\BaseModel->save(Array)
+#9 /Applications/MAMP/htdocs/payment/system/CodeIgniter.php(934): App\Controllers\Home->rekappayment()
+#10 /Applications/MAMP/htdocs/payment/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 /Applications/MAMP/htdocs/payment/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Applications/MAMP/htdocs/payment/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-03-23 09:19:23 --> Operand should contain 1 column(s)
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_payment` (`paper_id`, `paper_authors`, `paper_firstname`, `paper_lastname`, `payment_email`, `payment_type`, `payment_status`, `date_created`, `date_modified`) VALUES (:paper_id:, :paper_authors:, :paper_firstname:, :paper_lastname:, :payment_email:, :payment_type:, :payment_status:, :date_created:, :date_modified:)', [...], false)
+ 2 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH/BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH/Controllers/Home.php(108): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappayment()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 09:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 09:34:32 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(154): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 09:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 09:35:56 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(155): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 09:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 09:38:23 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(155): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 09:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 09:48:54 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(155): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 09:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 09:49:39 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(155): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 09:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 09:50:57 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(155): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 09:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 09:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 11:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 11:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 11:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 11:05:31 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(155): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 11:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 11:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 11:16:39 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(155): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 11:17:08 --> Cannot use object of type App\Models\PaymentModel as array
+in APPPATH/Controllers/Home.php on line 163.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->dopayment('2')
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 11:18:12 --> Invalid argument supplied for foreach()
+in APPPATH/Controllers/Home.php on line 165.
+ 1 APPPATH/Controllers/Home.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Controllers/Home.php', 165, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->dopayment('2')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 11:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 11:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 11:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 11:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 11:21:31 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(155): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 11:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 11:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 11:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 11:32:37 --> Undefined variable: payment_id
+in APPPATH/Views/rekappayment.php on line 13.
+ 1 APPPATH/Views/rekappayment.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: payment_id', 'APPPATH/Views/rekappayment.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/rekappayment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('rekappayment', [], true)
+ 5 APPPATH/Controllers/Home.php(155): view('rekappayment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->rekappage('navbar-top.css')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

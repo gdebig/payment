@@ -33,9 +33,20 @@ $routes->get('/', 'Home::index');
 $routes->get('/formpayment', 'Home::formpayment');
 $routes->get('/formpayment/(:any)', 'Home::formpayment/$1');
 $routes->get('/success', 'Home::success');
+$routes->post('/success', 'Home::success');
 $routes->get('/failed', 'Home::failed');
 $routes->get('/callback', 'Home::callback');
-$routes->post('/dopayment', 'Home::dopayment');
+$routes->post('/rekappayment', 'Home::rekappayment');
+$routes->get('/rekappage/(:any)', 'Home::rekappage/$1');
+$routes->get('/cancelpayment/(:any)', 'Home::cancelpayment/$1');
+$routes->get('/dopayment/(:any)', 'Home::dopayment/$1');
+
+//route admin
+$routes->get('/admin', 'Admin::index');
+$routes->get('/login', 'Admin::login');
+$routes->post('/auth', 'Admin::auth');
+$routes->get('/logout', 'Admin::logout');
+$routes->get('/verification', 'Admin::verification');
 
 /*
  * --------------------------------------------------------------------
